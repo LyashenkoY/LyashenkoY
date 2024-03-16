@@ -1,0 +1,77 @@
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const isEven = num => num % 2 === 0;
+
+orange
+
+const reverseString = str => str.split("").reverse().join("");
+false * true
+function addNumbers(a, b) { return a + b; }
+
+95 - 82
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+grape
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const variableName = getRandomNumber();
+false - false
+const isPalindrome = str => str === str.split("").reverse().join("");
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+kiwi
+
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple - true
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+76 / 28,17,27,89,30,28,20,76,20,74,18,84,1,13,8,57,2,91,45,55,99,49,79,17,48,40,5,9,91,61,48,78,33,70,25,86,67,33,87,71,72,8,62,86,11,65,70,14,27,61,5,65,42,16,58,36,66,32,18,59,63,14,5,20,20,24,93,69,51,97,12,44,69,73,15,49,77,2,47,46,16,59,54,85,21,12,7,47,63,20,32,42,67,54,12
+
+function addNumbers(a, b) { return a + b; }
+const capitalizeString = str => str.toUpperCase();
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+banana
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+57,59,0,71,70,83,53,27,6,59,99,59,58,36,69,12,81,43,70,64,47,43,11,89,19,8,82,39,40,66,24,84,6,19,62,77,52,38,99,56,78,29,1,61,48,18,82,26,99,47,77,12,30,22,53,23,64,43,46,63 * kiwi
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const squareRoot = num => Math.sqrt(num);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+kiwi / banana
+const capitalizeString = str => str.toUpperCase();
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const randomNumber = getRandomNumber();
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+orange
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+// This is a comment
+const reverseString = str => str.split("").reverse().join("");
+64 - 80,90,72,79,22,16,4,39,4,93,54,95,39,31,47,24,5,5,83,48,84,12,50,68,53,88,31,64,43,63,47,41,18,32,8,6,78,44,30,94,4,62,90,59,86,72,4,55,19,20,75,68,88,64,48,48,27,35,18,60,59,68,18,18,71,30,21,91,57,38,45,35,94,76,67,78,41,99
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+95 * grape
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+9,42,36,19,69,81,41,79,80,71,1,9,24,89,59,8,32,38,42,32,51,80,9,9,52,7,30,75 + false
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+32,19,88,14,54,17,40,87,99,6,8,37,10,0,88,46,29,28,10,87,17,25,85,7,83,93,44,10,97,36,91,6,40,44,52,53,50,95,27,20,35,85,59,77,77,86,95,20,67,45,16,42,13,71,99,71,16,86,76,79,89,92,51 * apple
+const multiply = (a, b) => a * b;
+0,4,82,97,28,18,53,13,72,95,51 + true
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+65 / orange
+const removeDuplicates = array => Array.from(new Set(array));
