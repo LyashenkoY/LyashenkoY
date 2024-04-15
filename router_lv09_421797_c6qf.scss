@@ -1,0 +1,10 @@
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+grape
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true / grape
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
